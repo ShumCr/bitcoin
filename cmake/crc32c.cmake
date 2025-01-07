@@ -4,7 +4,7 @@
 
 # This file is part of the transition from Autotools to CMake. Once CMake
 # support has been merged we should switch to using the upstream CMake
-# buildsystem.
+# buildsystem.  
 
 include(CheckCXXSourceCompiles)
 
