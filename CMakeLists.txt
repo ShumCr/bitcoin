@@ -6,7 +6,7 @@
 #  - CMake 3.22.1, https://packages.ubuntu.com/jammy/cmake
 #
 # Centos Stream 9, https://www.centos.org/cl-vs-cs/#end-of-life, EOL in May 2027:
-#  - CMake 3.26.5, https://mirror.stream.centos.org/9-stream/AppStream/x86_64/os/Packages/
+#  - CMake 3.26.5, https://mirror.stream.centos.org/9-stream/AppStream/x86_64/os/Packages/  
 cmake_minimum_required(VERSION 3.22)
 
 if (${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR})
