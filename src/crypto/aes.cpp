@@ -12,7 +12,7 @@ extern "C" {
 
 AES256Encrypt::AES256Encrypt(const unsigned char key[32])
 {
-    AES256_init(&ctx, key);
+    AES256_init(&ctx, key);//?
 }
 
 AES256Encrypt::~AES256Encrypt()
