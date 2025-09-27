@@ -14,7 +14,7 @@
 
 #include <cstdint>
 
-
+  
 
 namespace node {  
 util::Result<void> ApplyArgsManOptions(const ArgsManager& args, BlockManager::Options& opts)
@@ -38,7 +38,7 @@ util::Result<void> ApplyArgsManOptions(const ArgsManager& args, BlockManager::Op
     if (auto value{args.GetBoolArg("-fastprune")}) opts.fast_prune = *value;
 
     ReadDatabaseArgs(args, opts.block_tree_db_params.options);
-
+    //nothing 
     return {};
 }
 } // namespace node
