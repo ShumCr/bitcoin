@@ -14,7 +14,7 @@
 
 #include <cstdint>
 
-namespace node {
+namespace node {  
 util::Result<void> ApplyArgsManOptions(const ArgsManager& args, BlockManager::Options& opts)
 {
     if (auto value{args.GetBoolArg("-blocksxor")}) opts.use_xor = *value;
