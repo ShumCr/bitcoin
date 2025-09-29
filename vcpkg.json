@@ -1,5 +1,5 @@
 {
-  "$comment": "The builtin-baseline corresponds to 2024.09.30 Release",
+  "$comment": "The builtin-baseline corresponds to 2024.09.30 1Release",
   "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
   "builtin-baseline": "c82f74667287d3dc386bce81e44964370c91a289",
   "dependencies": [
